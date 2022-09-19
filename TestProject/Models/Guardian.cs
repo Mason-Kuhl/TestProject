@@ -5,9 +5,10 @@ using System.Web;
 
 namespace TestProject.Models
 {
-    public class Guardian
+    public class Guardian : User
     {
         public int Id { get; set; }
+        public int GuardianId { get; set; }
         public List<int> StudentId { get; set; }
     }
 }

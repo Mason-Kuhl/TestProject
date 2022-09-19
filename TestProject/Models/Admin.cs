@@ -5,7 +5,9 @@ using System.Web;
 
 namespace TestProject.Models
 {
-    public class Admin
+    public class Admin : User
     {
+        public int Id { get; set; }
+        public int AdminId { get; set; }
     }
 }

@@ -5,7 +5,10 @@ using System.Web;
 
 namespace TestProject.Models
 {
-    public class Teacher
+    public class Teacher : User
     {
+        public int Id { get; set; }
+        public int TeacherId { get; set; }
+        public int SchoolId { get; set; }
     }
 }
