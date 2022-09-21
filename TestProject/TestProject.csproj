@@ -178,6 +178,10 @@
     <Compile Include="Migrations\202209211817396_userTable.Designer.cs">
       <DependentUpon>202209211817396_userTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202209211931243_PopulateRoles.cs" />
+    <Compile Include="Migrations\202209211931243_PopulateRoles.Designer.cs">
+      <DependentUpon>202209211931243_PopulateRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -269,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202209211817396_userTable.resx">
       <DependentUpon>202209211817396_userTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202209211931243_PopulateRoles.resx">
+      <DependentUpon>202209211931243_PopulateRoles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
