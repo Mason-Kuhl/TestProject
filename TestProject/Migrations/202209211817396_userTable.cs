@@ -23,7 +23,7 @@ namespace TestProject.Migrations
                     "('Martha', 'Bechtol', 'our21', 'Storid', 'martha.bechtol@class.eps.org', 'Storid', 30901, 1, 'Student')");
 
             // Parents
-            Sql("INSERT INTO Users (FirstName, LastName, Password, Username, Email, GuardianId, Discriminator" +
+            Sql("INSERT INTO Users (FirstName, LastName, Password, Username, Email, GuardianId, Discriminator)" +
                 "VALUES" +
                     "('Curtis', 'Bechtol', 'bai0Choe', 'Whyall', 'curtisjbechtol@teleworm.us', 11590, 'Guardian')");
         }
