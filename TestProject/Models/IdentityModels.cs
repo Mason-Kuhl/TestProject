@@ -20,6 +20,11 @@ namespace TestProject.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<User> Users { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Guardian> Guardians { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
